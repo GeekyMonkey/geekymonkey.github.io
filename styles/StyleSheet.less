@@ -1,0 +1,37 @@
+﻿body {
+}
+
+@MenuColor: blue;
+
+
+header
+{
+    display: table;
+
+    > div
+    {
+        display: table-cell;
+    }
+
+
+    a
+    {
+        color: @MenuColor;
+    }
+
+
+    #Col1
+    {
+        font-size: 30px;
+
+        a
+        {
+            color: lighten(@MenuColor, 40%);
+        }
+
+        p
+        {
+            color: green;
+        }
+    }
+}

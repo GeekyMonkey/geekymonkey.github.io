@@ -1,0 +1,18 @@
+﻿header {
+  display: table;
+}
+header > div {
+  display: table-cell;
+}
+header a {
+  color: blue;
+}
+header #Col1 {
+  font-size: 30px;
+}
+header #Col1 a {
+  color: #ccccff;
+}
+header #Col1 p {
+  color: green;
+}
